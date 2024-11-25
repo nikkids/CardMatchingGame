@@ -2,7 +2,7 @@
 
 <h2>Backstory</h2>
 <div>
-This project was made when i became a volunteer as an english teacher in Thailand. Back then, i got placed in a quite a rural area where the students have limited access to the newest technology. So i thought, why not make a game that not only fun for the students, but also educating. And here it is, let me present to you "A Card Matching Game". 
+This project was made when i became a volunteer as an english teacher in Thailand. Back then, i got placed in a quite a rural area where the students have limited access to the newest technology. So i thought, why not make a game that not only fun for the students, but also educating. And here it is, let me present to you "Mix And Match". 
 <br><br>
   
 Although it was made only with basic HTML, CSS, and Javascript without advanced framework like React or Nextjs, i think it can get the work done pretty well.</div>
@@ -13,7 +13,7 @@ The game meant to be run on a default web browser. For starters, there will be a
 <h2>Gameplay</h2>
 <img src=https://i.imgur.com/5blmAIN.png width=60% height=60% alt=img>
 The gameplay based around matching 2 cards with the same image of Human Expression, there will also be a time limit of 120 seconds.
-The player will be considered victory if they successfully match all the cards before the time runs out.
+The player will be considered victory if they successfully match all the cards before the time runs out. If the player fails, the deck will be randomly organized and restart the game.
 
 <h2>User Experience</h2>
 <img src=https://imgur.com/WTqOf5O.png width=60% height=60% alt=img>
