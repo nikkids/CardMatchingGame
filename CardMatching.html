@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="CardMatching.css" rel="stylesheet" />
+    <script src="CardMatching.JS" async></script>
+    <title>Mix and Match</title>
+  </head>
+  <body>
+    <img src="materials/Hutao money.gif" id="hutao" />
+
+    <h1 class="page-title">Mix and Match</h1>
+
+    <div class="overlay-text visible">Click To Start</div>
+
+    <div id="game-over-text" class="overlay-text">
+      GAME OVER
+      <span class="overlay-text-small">Click To Restart</span>
+    </div>
+
+    <div id="victory-text" class="overlay-text">
+      WIN
+      <span class="overlay-text-small">Click To Restart</span>
+    </div>
+
+    <div class="game-container">
+      <div class="game-info-container">
+        <div class="game-info">Time <span id="time-remaining">120</span></div>
+        <div class="game-info">Flips <span id="flips">0</span></div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/disgust.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/disgust.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/love.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/love.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/surprised.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/surprised.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/happy.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/happy.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/sad.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/sad.png" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/mad.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/mad.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/shy.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/shy.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/fear.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/fear.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/confused.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/confused.png" />
+        </div>
+      </div>
+      <div class="card"></div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/bored.png" />
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/bored.png" />
+        </div>
+
+        <!--<div class="card">
+            <div class="card-back card-face">
+              <img class="image" src="materials/aiesec2.png" />
+            </div>
+            <div class="card-front card-face">
+              <img class="imageValue" src="materials/disgust.png" />
+            </div>
+
+         <div class="card">
+        <div class="card-back card-face">
+          <img class="image" src="materials/aiesec2.png" />
+        </div>
+        <div class="card-front card-face">
+          <img class="imageValue" src="materials/disgust.png" />
+        </div>
+    -->
+      </div>
+    </div>
+  </body>
+</html>
