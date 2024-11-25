@@ -9,5 +9,5 @@ Although it was made only with basic HTML, CSS, and Javascript without advanced 
 
 <h2>Start Screen</h2>
 
-[<img src=https://imgur.com/a/mixandmatch-ZKfv04q>
+[<img src=https://i.imgur.com/EvuxqBh.png>
 ](https://imgur.com/a/mixandmatch-ZKfv04q)
