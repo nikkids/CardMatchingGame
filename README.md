@@ -8,6 +8,15 @@ This project was made when i became a volunteer as an english teacher in Thailan
 Although it was made only with basic HTML, CSS, and Javascript without advanced framework like React or Nextjs, i think it can get the work done pretty well.</div>
 
 <h2>Start Screen</h2>
+<img src=https://i.imgur.com/EvuxqBh.png width=70% height=70% alt=img>
+The game meant to be run on a default web browser. For starters, there will be a deck of cards facing backwards, a time limit, and a counter of how many cards the player have flipped.
+<h2>Gameplay</h2>
+<img src=https://i.imgur.com/5blmAIN.png width=60% height=60% alt=img>
+The gameplay based around matching 2 cards with the same image, there will also be a time limit of 120 seconds.
+The player will be considered victory if they successfully match all the cards before the time runs out.
 
-[<img src=https://i.imgur.com/EvuxqBh.png width=70% height=70%>
-](image)
+<h2>User Experience</h2>
+
+<img src=https://imgur.com/WTqOf5O.png width=60% height=60% alt=img>
+Although i don't have documentations for the real-life implementation of this program, i do have the photos of the users with their smiles.😄
+
