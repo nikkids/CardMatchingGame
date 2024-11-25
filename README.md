@@ -9,4 +9,5 @@ Although it was made only with basic HTML, CSS, and Javascript without advanced 
 
 <h2>Start Screen</h2>
 
-<img src=https://imgur.com/a/mixandmatch-ZKfv04q height=80% width=80% alt='StartScreen'>
+[<img src=https://imgur.com/a/mixandmatch-ZKfv04q height=80% width=80% alt='StartScreen'>
+](https://imgur.com/a/mixandmatch-ZKfv04q)
